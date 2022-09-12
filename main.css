@@ -1,0 +1,104 @@
+* {box-sizing: border-box;}
+.image {width: 100%;
+        height: auto;}
+
+.fluid-width {width: 100%;
+                margin: auto;
+            margin-top: -1em;}
+
+main {background-color: #efc68f;
+    padding-top: 3.5em;
+        margin: -2em;}
+
+h1 {padding-left: 1.5em;}
+
+p {padding-left: 1em;
+    font-size: 18px;}
+
+ul li {font-size: 20px;
+        font-weight: bold;}
+
+
+#section1 {
+           
+            background-color: #f9d49d;
+            padding-top: 1.5em;
+            padding-left: 1.5em;
+            padding-bottom: 1.5em;}
+
+#img-div {
+            background-color: #fcdba2;
+            padding-top: 1.5em;
+            padding-bottom: 1.5em;
+            padding-left: 2em;
+            padding-right: 2em;}
+
+footer {width: 100%;
+        padding: 1.5em;
+       
+        font-size: 18px;
+        color: #ffffff;
+        background-color: #b58a4a;
+        
+        text-align: center;
+        }
+
+#margin-special {margin-top: 0;}
+
+@media (min-width: 481px) {
+
+    .fluid-width {width: 95%;
+        margin: auto;
+    margin-top: -1em;}
+
+    #section1 {
+        background-color: #f9d49d;
+        padding-top: 1.5em;
+        padding-left: 1.5em;
+        padding-bottom: 1.5em;
+        }
+
+#img-div {
+        background-color: #fcdba2;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+        padding-left: 2em;
+        padding-right: 2em;
+       }
+
+
+}
+
+@media (min-width: 769px) {
+
+
+#intro-text {
+    padding-bottom: 2em;
+}
+    .fluid-width {width: 90%;
+        margin: auto;
+    margin-top: -1em;}
+
+#section1 {float: left;
+        width: 50%;
+        background-color: #f9d49d;
+        padding-top: 1.5em;
+        padding-left: 1.5em;
+        padding-bottom: 10.5em;
+        min-height: 620px;}
+
+#img-div {float: right;
+        width: 50%;
+        background-color: #fcdba2;
+        padding-top: 1.5em;
+        padding-bottom: 1.7em;
+        padding-left: 2em;
+        padding-right: 2em;
+        min-height: 620px;}
+
+#margin-special {margin-top: -1em;}
+
+footer {clear: both;}
+
+
+}
