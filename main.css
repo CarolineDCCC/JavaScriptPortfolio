@@ -123,14 +123,14 @@ footer a:visited {color: #ffffff;}
         padding-left: 1.5em;
         padding-right: 1.5em;
         padding-bottom: 0.5em;
-        min-height: 850px;
+        min-height: 1250px;
         margin-right: -0.3em;}
 
 
 #images-div {float: right;
             width: 50%;
             background-color: #fcdba2;
-            min-height: 850px;
+            min-height: 1250px;
             margin-left: -0.3em;}       
 
 #img-div {
@@ -169,12 +169,12 @@ footer {clear: both;}
         padding-top: 1.5em;
         padding-left: 1.5em;
         padding-bottom: 0.5em;
-        min-height: 1100px;}
+        min-height: 1500px;}
 
 #images-div {float: right;
             width: 60%;
             background-color: #fcdba2;
-            min-height: 1100px;
+            min-height: 1500px;
             margin-left: 0;}
 
     #img-div {
@@ -220,12 +220,33 @@ footer {clear: both;}
                 padding-top: 1.5em;
                 padding-left: 1.5em;
                 padding-bottom: 0.5em;
-                min-height: 1400px;}
+                min-height: 1700px;}
 
 
         #images-div {float: right;
                 width: 60%;
                 background-color: #fcdba2;
-                min-height: 1400px;
+                min-height: 1700px;
                 margin-left: 0;}
 }
+
+@media (min-width: 1350px) {
+
+
+        #section1 {float: left;
+                width: 40%;
+                background-color: #f9d49d;
+                padding-top: 1.5em;
+                padding-left: 1.5em;
+                padding-bottom: 0.5em;
+                min-height: 2000px;}
+
+
+        #images-div {float: right;
+                width: 60%;
+                background-color: #fcdba2;
+                min-height: 2000px;
+                margin-left: 0;}
+}
+
+/*test change to try to commit to github again*/
