@@ -1,32 +1,14 @@
 * {box-sizing: border-box;}
-
-body {
-        margin: 0;
-}
 .image {width: 100%;
         height: auto;}
 
 .fluid-width {width: 100%;
                 margin: auto;
-            }
+            margin-top: -1em;}
 
 main {background-color: #efc68f;
     padding-top: 3.5em;
         margin: -2em;}
-
-#main-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: auto;
-        margin-top: -1em;
-} 
-
-#intro-text {
-        display: grid;
-        grid-column: 1/13;
-        grid-row: 1/2;
-        background-color: #efc68f;
-}
 
 h1 {padding-left: 1.5em;}
 
@@ -53,23 +35,12 @@ li a:hover {color: #0000ff;}
 li a:visited {color: #000000;}
 
 
-
-
-#section1 {display: grid;
-            grid-column: 1/13;
-            grid-row: 2/3;
+#section1 {
            
             background-color: #f9d49d;
             padding-top: 1.5em;
             padding-left: 1.5em;
             padding-bottom: 1.5em;}
-
-#images-div {
-        display: grid;
-        grid-column: 1/13;
-        grid-row: 3/4;
-        background-color: #fcdba2;
-}
 
 #img-div {
             background-color: #fcdba2;
@@ -117,13 +88,13 @@ footer a:link {color: #ffffff;}
 footer a:hover {color: #0000ff;}
 footer a:visited {color: #ffffff;}
 
-#margin-special {}
+#margin-special {margin-top: 0;}
 
 @media (min-width: 481px) {
 
     .fluid-width {width: 95%;
         margin: auto;
-    }
+    margin-top: -1em;}
 
     #section1 {
         background-color: #f9d49d;
@@ -171,32 +142,28 @@ padding-right: 2em;
 @media (min-width: 769px) {
 
 
-#intro-text {display: grid;
-        grid-column: 1/13;
-        grid-row: 1/2;
+#intro-text {
     padding-bottom: 2em;
 }
     .fluid-width {width: 90%;
         margin: auto;
-    }
+    margin-top: -1em;}
 
-#section1 {display: grid;
-        grid-column: 1/7;
-        grid-row: 2/3;
+#section1 {float: left;
+        width: 50%;
         background-color: #f9d49d;
         padding-top: 1.5em;
         padding-left: 1.5em;
         padding-right: 1.5em;
         padding-bottom: 0.5em;
-        
+        min-height: 1250px;
         margin-right: -0.3em;}
 
 
-#images-div {display: grid;
-            grid-column: 7/13;
-            grid-row: 2/3;
+#images-div {float: right;
+            width: 50%;
             background-color: #fcdba2;
-            
+            min-height: 1250px;
             margin-left: -0.3em;}       
 
 #img-div {
@@ -242,27 +209,27 @@ padding-right: 2em;
 
 
 
-#margin-special {}
+#margin-special {margin-top: -1em;}
+
+footer {clear: both;}
 
 
 }
 
 @media (min-width: 1024px) {
 
-#section1 {display: grid;
-        grid-column: 1/6;
-        grid-row: 2/3;
+#section1 {float: left;
+        width: 40%;
         background-color: #f9d49d;
         padding-top: 1.5em;
         padding-left: 1.5em;
         padding-bottom: 0.5em;
-        }
+        min-height: 1500px;}
 
-#images-div {display: grid;
-            grid-column: 6/13;
-            grid-row: 2/3;
+#images-div {float: right;
+            width: 60%;
             background-color: #fcdba2;
-            
+            min-height: 1500px;
             margin-left: 0;}
 
     #img-div {
@@ -302,48 +269,47 @@ padding-right: 2em;
         padding-right: 2em;
         }
 
-#margin-special {}
+#margin-special {margin-top: -1em;}
+
+footer {clear: both;}
+
 }
 
 @media (min-width: 1200px) {
 
 
-        #section1 {display: grid;
-                grid-column: 1/6;
-                grid-row: 2/3;
+        #section1 {float: left;
+                width: 40%;
                 background-color: #f9d49d;
                 padding-top: 1.5em;
                 padding-left: 1.5em;
                 padding-bottom: 0.5em;
-                }
+                min-height: 1700px;}
 
 
-        #images-div {display: grid;
-                grid-column: 6/13;
-                grid-row: 2/3;
+        #images-div {float: right;
+                width: 60%;
                 background-color: #fcdba2;
-                
+                min-height: 1700px;
                 margin-left: 0;}
 }
 
 @media (min-width: 1350px) {
 
 
-        #section1 {display: grid;
-                grid-column: 1/6;
-                grid-row: 2/3;
+        #section1 {float: left;
+                width: 40%;
                 background-color: #f9d49d;
                 padding-top: 1.5em;
                 padding-left: 1.5em;
                 padding-bottom: 0.5em;
-                }
+                min-height: 2000px;}
 
 
-        #images-div {display: grid;
-                grid-column: 6/13;
-                grid-row: 2/3;
+        #images-div {float: right;
+                width: 60%;
                 background-color: #fcdba2;
-                
+                min-height: 2000px;
                 margin-left: 0;}
 }
 
