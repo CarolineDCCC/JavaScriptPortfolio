@@ -39,10 +39,12 @@ p {padding-left: 1em;
         color: #000000;
         background-color: #efc68f;}
 
+.link-colors a:link {color: #000000;}
+.link-colors a:hover {color: #0000ff;}
+.link-colors a:visited {color: #000000;}
 
-p a:link {color: #000000;}
-p a:hover {color: #0000ff;}
-p a:visited {color: #000000;}
+
+
 
 
 ul li {font-size: 20px;
@@ -111,12 +113,19 @@ padding-right: 2em;}
         padding-right: 2em;}
 
 
-        #img-div6 {
-                background-color: #fcdba2;
-                padding-top: 1.5em;
-                padding-bottom: 1.5em;
-                padding-left: 2em;
-                padding-right: 2em;}
+#img-div6 {
+        background-color: #fcdba2;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+        padding-left: 2em;
+        padding-right: 2em;}
+
+#img-div7 {
+        background-color: #fcdba2;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+        padding-left: 2em;
+        padding-right: 2em;}
 
 footer {width: 100%;
         padding: 1.5em;
@@ -146,60 +155,6 @@ footer a:visited {color: #ffffff;}
         padding-left: 1.5em;
         padding-bottom: 1.5em;
         }
-
-#img-div {
-        background-color: #fcdba2;
-        padding-top: 1.5em;
-        padding-bottom: 1.5em;
-        padding-left: 2em;
-        padding-right: 2em;
-       }
-
-#img-div2 {
-        background-color: #fcdba2;
-        padding-top: 1.5em;
-        padding-bottom: 1.5em;
-        padding-left: 2em;
-        padding-right: 2em;
-       }
-
-
-#img-div3 {
-background-color: #fcdba2;
-padding-top: 1.5em;
-padding-bottom: 1.5em;
-padding-left: 2em;
-padding-right: 2em;
-}
-
-#img-div4 {
-        background-color: #fcdba2;
-        padding-top: 1.5em;
-        padding-bottom: 1.5em;
-        padding-left: 2em;
-        padding-right: 2em;
-        }
-
-
-
-
-#img-div5 {
-        background-color: #fcdba2;
-        padding-top: 1.5em;
-        padding-bottom: 1.5em;
-        padding-left: 2em;
-        padding-right: 2em;
-        }
-
-        #img-div6 {
-                background-color: #fcdba2;
-                padding-top: 1.5em;
-                padding-bottom: 1.5em;
-                padding-left: 2em;
-                padding-right: 2em;
-                }
-
-
 }
 
 @media (min-width: 769px) {
@@ -236,64 +191,46 @@ padding-right: 2em;
 #img-div {
         width: 99%;
         margin: auto;
-        background-color: #fcdba2;
-        padding-top: 1.5em;
         padding-bottom: 1.7em;
-        padding-left: 2em;
-        padding-right: 2em;
         }
 
 
 #img-div2 {
             width: 99%;
             margin: auto;
-            background-color: #fcdba2;
-            padding-top: 1.5em;
             padding-bottom: 1.7em;
-            padding-left: 2em;
-            padding-right: 2em;
 }
 
 #img-div3 {
         width: 99%;
         margin: auto;
-        background-color: #fcdba2;
-        padding-top: 1.5em;
         padding-bottom: 1.7em;
-        padding-left: 2em;
-        padding-right: 2em;
         }
 
 #img-div4 {
 width: 99%;
 margin: auto;
-background-color: #fcdba2;
-padding-top: 1.5em;
 padding-bottom: 1.7em;
-padding-left: 2em;
-padding-right: 2em;
 }
 
 #img-div5 {
         width: 99%;
         margin: auto;
-        background-color: #fcdba2;
-        padding-top: 1.5em;
         padding-bottom: 1.7em;
-        padding-left: 2em;
-        padding-right: 2em;
         }
 
 
-        #img-div6 {
-                width: 99%;
-                margin: auto;
-                background-color: #fcdba2;
-                padding-top: 1.5em;
-                padding-bottom: 1.7em;
-                padding-left: 2em;
-                padding-right: 2em;
-                }
+#img-div6 {
+        width: 99%;
+        margin: auto;
+        padding-bottom: 1.7em;
+}
+
+#img-div7 {
+        width: 99%;
+        margin: auto;
+        padding-bottom: 1.7em;
+}
 
 
 
@@ -332,49 +269,28 @@ padding-right: 2em;
 
  #img-div2 {
             width: 90%;
-            background-color: #fcdba2;
-            padding-top: 1.5em;
-            padding-bottom: 1.7em;
-            padding-left: 2em;
-            padding-right: 2em;
             }
 
 #img-div3 {
         width: 90%;
-        background-color: #fcdba2;
-        padding-top: 1.5em;
-        padding-bottom: 1.7em;
-        padding-left: 2em;
-        padding-right: 2em;
         }
 
 #img-div4 {
         width: 90%;
-        background-color: #fcdba2;
-        padding-top: 1.5em;
-        padding-bottom: 1.7em;
-        padding-left: 2em;
-        padding-right: 2em;
         }
 
 #img-div5 {
         width: 90%;
-        background-color: #fcdba2;
-        padding-top: 1.5em;
-        padding-bottom: 1.7em;
-        padding-left: 2em;
-        padding-right: 2em;
         }
 
-        #img-div6 {
-                width: 90%;
-                background-color: #fcdba2;
-                padding-top: 1.5em;
-                padding-bottom: 1.7em;
-                padding-left: 2em;
-                padding-right: 2em;
-                }
+#img-div6 {
+        width: 90%;
+        }
 
+#img-div7 {
+        width: 90%;
+        }
+        
 
 }
 
@@ -420,4 +336,4 @@ padding-right: 2em;
                 margin-left: 0;}
 }
 
-/*test change to try to commit to github again*/
+/*test change to try to commit to github again October 15 12AM 2022*/
