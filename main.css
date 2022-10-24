@@ -127,6 +127,13 @@ padding-right: 2em;}
         padding-left: 2em;
         padding-right: 2em;}
 
+#img-div8 {
+background-color: #fcdba2;
+padding-top: 1.5em;
+padding-bottom: 1.5em;
+padding-left: 2em;
+padding-right: 2em;}
+
 footer {width: 100%;
         padding: 1.5em;
        
@@ -232,6 +239,12 @@ padding-bottom: 1.7em;
         padding-bottom: 1.7em;
 }
 
+#img-div8 {
+        width: 99%;
+        margin: auto;
+        padding-bottom: 1.7em;
+}
+
 
 
 
@@ -290,6 +303,10 @@ padding-bottom: 1.7em;
 #img-div7 {
         width: 90%;
         }
+
+#img-div8 {
+width: 90%;
+}
         
 
 }
