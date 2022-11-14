@@ -149,6 +149,13 @@ padding-right: 2em;}
                 padding-left: 2em;
                 padding-right: 2em;}
 
+#img-div11 {
+background-color: #fcdba2;
+padding-top: 1.5em;
+padding-bottom: 1.5em;
+padding-left: 2em;
+padding-right: 2em;}
+
 footer {width: 100%;
         padding: 1.5em;
        
@@ -273,6 +280,12 @@ padding-bottom: 1.7em;
         padding-bottom: 1.7em;
 }
 
+#img-div11 {
+        width: 99%;
+        margin: auto;
+        padding-bottom: 1.7em;
+}
+
 
 
 
@@ -343,6 +356,10 @@ width: 90%;
         #img-div10 {
                 width: 90%;
                 }
+
+#img-div11 {
+width: 90%;
+}
 
 }
 
